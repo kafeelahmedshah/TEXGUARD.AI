@@ -244,6 +244,32 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Project owner / student identity — shown at the top of the app
+st.markdown("""
+<div style="
+    padding: 18px 22px;
+    margin: 18px 0 24px 0;
+    border-radius: 14px;
+    border: 1px solid #bfdbfe;
+    background: linear-gradient(120deg, #eff6ff, #f8fafc);
+">
+    <div style="font-size: 13px; font-weight: 700; letter-spacing: 1px; color: #1d4ed8;">
+        PROJECT DEVELOPER
+    </div>
+    <div style="font-size: 25px; font-weight: 800; color: #0f172a; margin-top: 5px;">
+        Syed Kafeel Ahmed Shah
+    </div>
+    <div style="font-size: 16px; color: #334155; margin-top: 5px;">
+        <b>Roll Number:</b> 25TE006
+        &nbsp; | &nbsp;
+        <b>Department:</b> Textile Engineering
+    </div>
+    <div style="font-size: 14px; color: #475569; margin-top: 4px;">
+        Mehran University of Engineering &amp; Technology (MUET)
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
 tab1, tab2, tab3 = st.tabs(["🔍 Inspection", "📊 Dashboard", "🤖 Textile AI Guide"])
 
 with tab1:
@@ -402,4 +428,4 @@ with tab3:
     )
 
 st.divider()
-st.caption("TexGuard AI • Hackathon MVP • Textile Engineering")
+st.caption("TexGuard AI • Developed by Syed Kafeel Ahmed Shah • 25TE006 • Textile Engineering")
